@@ -1,0 +1,64 @@
+/* common css starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+/* common css end */
+/* navbar start */
+.nav-parent {
+  width: 85%;
+  max-width: 1600px;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-parent button {
+  border-radius: 4px;
+  padding: 12px 16px;
+  border: none;
+  background-color: #30b868;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.nav-parent button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.nav-u-list {
+  display: flex;
+  gap: 32px;
+}
+.nav-u-list li {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.9;
+}
+/* navbar end */
