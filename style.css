@@ -115,15 +115,53 @@ body {
   border: 1px solid rgba(0, 170, 255, 0.6);
   border-radius: 4px;
   padding: 12px 16px;
-   background: #0b2a44;
+  background: #0b2a44;
   transition: background-color 0.4s ease;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
-   
 }
-.banner-btn button:hover{
-      background-color: #30b868;
+.banner-btn button:hover {
+  background-color: #30b868;
 }
 
 /* banner section end */
+/* notes section start */
+#notes {
+  margin: 120px auto 0;
+  width: 85%;
+  max-width: 1600px;
+}
+#notes h2 {
+  text-align: center;
+  color: #001931;
+  font-weight: 700;
+  font-size: 48px;
+}
+#notes p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 16px 0 44px;
+}
+
+.notes-card img {
+  background-color: #f95555;
+  padding: 15px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+.notes-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+.notes-all-cards {
+  display: flex;
+  gap: 24px;
+}
+/* notes section end */
