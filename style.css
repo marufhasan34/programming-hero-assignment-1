@@ -165,3 +165,42 @@ body {
   gap: 24px;
 }
 /* notes section end */
+/* second brain section start */
+#second-brain {
+  width: 85%;
+  max-width: 1600px;
+  margin: 120px auto 0;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.second-brain-image img {
+  border-radius: 12px;
+}
+.second-brain-content h6 {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #30b868;
+}
+.second-brain-content h2 {
+  color: #001931;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 16px 0;
+}
+.second-brain-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.second-brain-content ul li{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 5px;
+  
+}
+/* second brain section end */
