@@ -197,10 +197,59 @@ body {
   margin-bottom: 40px;
 }
 
-.second-brain-content ul li{
-    margin-bottom: 15px;
-    display: flex;
-    gap: 5px;
-  
+.second-brain-content ul li {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 5px;
 }
 /* second brain section end */
+/* think-more-clearly section start */
+#think-more-clearly {
+  background-color: #f7f6f2;
+  width: 85%;
+  max-width: 1600px;
+  margin: 120px auto;
+  padding: 80px;
+}
+.think-more-clearly-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.think-more-clearly-content h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #001931;
+}
+.think-more-clearly-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #627382;
+  margin: 16px 0 24px;
+}
+.think-more-clearly-content .think-more-clearly-btn {
+  align-items: center;
+}
+.think-more-clearly-btn button {
+  border-radius: 4px;
+  padding: 12px 16px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  background-color: #30b868;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.think-more-clearly-btn button:hover {
+  background-color: #e6f2ff;
+  color: #000;
+}
+.think-more-clearly-content span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #627382;
+}
+/* think-more-clearly section end */
